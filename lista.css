@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #cfcfcf, #e0d4d4);
+    color: #070606;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ===== CONTAINER ===== */
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+}  
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ===== TOPO ===== */
+.topo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.topo input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    flex: 1;
+}
+
+/* ===== BOTÕES ===== */
+.btn {
+    padding: 10px 18px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background: radial-gradient(circle at top left, #ebc5d0, #020004);
+    box-shadow: 0 6px 0 #000000;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #f9f6fa;
+}
+
+.voltar {
+    background: radial-gradient(circle at top left, #999, #2c2222);
+}
+
+/* ===== LISTA ===== */
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: rgba(153, 135, 135, 0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 0 15px rgba(142,45,226,0.3);
+}
+
+.card strong {
+    color: #411b34;
+}
+
+.card button {
+    margin-top: 100px;
+    background: radial-gradient(circle at top left, #434064, #180202);
+}
+.cardCadastro {
+    background: rgba(26, 15, 15, 0.397);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+}

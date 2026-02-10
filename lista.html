@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Cadastros</title>
+    <link rel="stylesheet" href="lista.css">
+    <script type="module" src="lista.js"></script>
+</head>
+<body>
+
+<div class="particulas"></div>
+
+<div class="container">
+    <h1>📋 Lista de Cadastros</h1>
+
+    <div class="topo">
+        <input type="text" id="filtro" placeholder="Filtrar por nome">
+        <input type="password" id="senha" placeholder="Senha para apagar">
+        <button class="btn exportar" onclick="exportarExcel()">Exportar</button>
+        <button class="btn voltar" onclick="window.location.href='index.html'">Voltar</button>
+    </div>
+
+    <ul id="listaCadastros" class="lista"></ul>
+</div>

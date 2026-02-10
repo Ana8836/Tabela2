@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Tabela com Vídeo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<table width="100%" cellpadding="5" cellspacing="5">
+
+<tr>
+    <td width="15%" align="center" style="height:250px;">
+        <img src="ideogram-v3.0_CRIE_UMA_LOGO_QUE_O_SIMBOLO_SEJA_UM_DISCO_DE_VINIL_E_QUE_TENHA_AS_LETRAS_AB-0.jpg" style="width:250px; height:250px; object-fit: cover; border-radius:12px;">
+    </td>
+
+    <td width="85%" height="450">
+        <video src="42 (1).mp4" width="100%" height="450" controls loop></video>
+    </td>
+</tr>
+
+<tr>
+    <td width="15%" valign="top" align="center">
+
+        <!-- Botões -->
+        <a href="#" class="botao-menu" onclick="carregarBiografia('raul')"><span style="background:#1e90ff;">Raul</span></a>
+        <a href="#" class="botao-menu" onclick="carregarBiografia('rita')"><span style="background:#2ecc71;">Rita</span></a>
+        <a href="#" class="botao-menu" onclick="carregarBiografia('djavan')"><span style="background:#9b59b6;">Djavan</span></a>
+        <a href="#" class="botao-menu" onclick="carregarBiografia('elis')"><span style="background:#e67e22;">Elis</span></a>
+        <a href="#" class="botao-menu" onclick="carregarDados()"><span style="background:#e74c3c;">Dados</span></a>
+        <a href="#" class="botao-menu" onclick="carregarQRCode()"><span style="background:#f1c40f;">QR Code</span></a>
+        <a href="lista.html" class="botao-menu">
+    <span style="background:#e91e63;">Lista</span>
+</a>
+
+    </td>
+
+    <td width="85%">
+        <iframe id="imagemFrame" width="100%" height="450" frameborder="0" scrolling="yes"></iframe>
+    </td>
+</tr>
+
+</table>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
